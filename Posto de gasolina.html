@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      var codigo = prompt("Digite o código do combustível escolhido: 1 - álcool 2 - gasolina");
+      if (codigo == 1){
+        document.write("Você selecionou a opção Álcool.");
+        var n = prompt("Digite a quantidade em litros que você irá comprar: ");
+        var precoalcool = 3.16 * n;
+        document.write("<br>");
+        document.write("O preço do seu combustível custa: R$:"+precoalcool);
+
+      }else{
+        if(codigo == 2){
+          document.write("Você selecionou a opção Gasolina.");
+          var litros = prompt("Digite a quantidade em litros que irá comprar: ");
+          var precogasolina = 4.19 * litros;
+          document.write("<br>");
+          document.write("O preço do total da compra foi: R$: "+precogasolina);
+        }else{
+          if(codigo != 1 || 2){
+            alert("Você digitou o código errado. Tente novamente. ");
+          }
+        }
+      }
+
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
