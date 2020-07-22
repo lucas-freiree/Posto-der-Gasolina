@@ -1,2 +1,2 @@
 # Posto-de-Gasolina
-Trabalho do EAD
+Trabalho do EAD Javascript
