@@ -1,2 +1,2 @@
-# Posto-der-Gasolina
+# Posto-de-Gasolina
 Trabalho do EAD
